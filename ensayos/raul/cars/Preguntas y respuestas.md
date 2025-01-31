@@ -47,19 +47,25 @@ Escribe cut -d";" -f4 Electric_Vehicle_Population_Data.csv | sort -u | grep -v "
 Escribe head -1 Electric_Vehicle_Population_Data.csv | sed -e "s/;/\n/g" | grep -n "Model Year"
 ```
 ## ¿En que año se fabricó el vehículo matriculado en Texas (TX)?
-
+2019
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe awk -F";" 'NR==227 {print $6}' Electric_Vehicle_Population_Data.csv:
 ```
 ## ¿Cuál es el modelo de vehículo matriculado en Californía (CA)?
+@Raulell ➜ .../IFDC0112/ensayos/raul/cars (main) $ cut -d";" -f4,6 Electric_Vehicle_Population_Data.csv | grep -n "CA"
+65167:CA;2021
+@Raulell ➜ .../IFDC0112/ensayos/raul/cars (main) $ awk -F";" 'NR==65167 {print $6}' Electric_Vehicle_Population_Data.csv
+2021
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe cut -d";" -f4,6 Electric_Vehicle_Population_Data.csv | grep -n "CA"
+
+awk -F";" 'NR==65167 {print $6}' Electric_Vehicle_Population_Data.csv
 ```
 ## ¿De cuántas ciudades del estado de Washigthon hay datos en el fichero?
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe  cut -d";" -f4,3 Electric_Vehicle_Population_Data.csv | grep "WA" | sort -u | wc -l
 ```
 ## De los vehículos registrados en la ciudad de Shelton, el que tiene el mayor rango electrico, ¿cuántas millas puede recorrer?
 
