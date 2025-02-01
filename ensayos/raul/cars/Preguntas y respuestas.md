@@ -52,6 +52,7 @@ Escribe head -1 Electric_Vehicle_Population_Data.csv | sed -e "s/;/\n/g" | grep 
 Escribe awk -F";" 'NR==227 {print $6}' Electric_Vehicle_Population_Data.csv:
 ```
 ## ¿Cuál es el modelo de vehículo matriculado en Californía (CA)?
+
 @Raulell ➜ .../IFDC0112/ensayos/raul/cars (main) $ cut -d";" -f4,6 Electric_Vehicle_Population_Data.csv | grep -n "CA"
 65167:CA;2021
 @Raulell ➜ .../IFDC0112/ensayos/raul/cars (main) $ awk -F";" 'NR==65167 {print $6}' Electric_Vehicle_Population_Data.csv
