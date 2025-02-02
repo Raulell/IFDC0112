@@ -92,3 +92,11 @@ Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
+## ¿Que porcentaje de valores unicos tiene una columna?
+
+
+## Cuantos valores distintos hay en cada Columna. Hay 17 Columnas.... lo hacs 17 veces?
+
+```bash
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
+```

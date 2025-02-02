@@ -49,3 +49,14 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 + substituir en todo el archivo :% s/original/substitucion/g
 + cambiar una palabra cw (sin los dos puntos. estando encima de la palabra.)
 + deshacer u
+
+
+# Comandos git
++ git add .                    // Pone en modo seguimiento todos los archivos del repo
++ git add file                 // Pone en mode seguimiento el archivo file
++ git commit                   // Sube al **stage** los ficheros que están en modo seguimiento **Y** abre el editor para documentar el commit.
++ git push                     // Sube las modificaciones al repositorio en la nube GitHub
++ git pull                     // Baja desde el repositorio en la nube GitHub al directorio en la máquina local la version actual.
+
+### Hay varios manuales de buenas prácticas para documentar los commits
+### Agrupa los modificaciones relacionadas en un mismo commit 
