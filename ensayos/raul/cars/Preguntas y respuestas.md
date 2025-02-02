@@ -69,35 +69,31 @@ awk -F";" 'NR==65167 {print $6}' Electric_Vehicle_Population_Data.csv
 Escribe  cut -d";" -f4,3 Electric_Vehicle_Population_Data.csv | grep "WA" | sort -u | wc -l
 ```
 ## De los vehículos registrados en la ciudad de Shelton, el que tiene el mayor rango electrico, ¿cuántas millas puede recorrer?
-
+El modelo S con una sola carga puede recorrer un total de 405 millas
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe awk -F";" '$3 == "Shelton" && $11 == 330 {print $8}' Electric_Vehicle_Population_Data.csv
+
 ```
 ## ¿Cuál es el DOL vehicle ID de ese vehículo que alcanza esa distancia máxima?
-
+108257964
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe awk -F";" '$3 == "Shelton" && $11 == 330 {print $14}' Electric_Vehicle_Population_Data.csv
 ```
 ## ¿Cuáles son los fabricantes que tienen más de 4000 vehiculos registrados?
+Hay 6 fabricantes, BMW, CHEVROLET, FORD, KIA, NISSAN, TESLA
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe  awk -F";" '{print $7}' Electric_Vehicle_Population_Data.csv | sort | uniq -c | awk '$1 > 4000' | nl
 ```
 
-## ¿Cuáles son los fabricantes que tienen más de 4000 vehiculos registrados?
+## ¿Qué modelo de Nissan es lider en ventas?
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
-```
-
-## ¿Qué modelo de Nissa es lider en ventas?
-
-```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe awk -F";" 'tolower($7) == "nissan" {print $8}' Electric_Vehicle_Population_Data.csv | sort | uniq -c
 ```
 
 ## Ordena de mayor a menor autonomía promedio a los fabricantes
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+Escribe cut -d";" -f7,11 Electric_Vehicle_Population_Data.csv | awk -F";" '{sum[$1] += $2; count[$1]++} END {for (m in sum) printf "%s %.2f\n", m, sum[m] / count[m]}' | sort -nr -k2
 ```
