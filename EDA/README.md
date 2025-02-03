@@ -90,7 +90,8 @@
     ``` 
 
   + Que porcentaje de valores diferentes tiene una columna?
-  Aprendemos aqui a guardar valores en una variable.
+  
+  Aprendemos aquí a guardar valores en una variable.
   Vemos como ejecutar varios comandos en uno.
   ```bash
     LINES=$(wc -l Electric_Vehicle_Population_Data.csv | awk '{print $1}');DISTINCT=$(cut -d\; -f1 Electric_Vehicle_Population_Data.csv | uniq | wc -l  )  ;PERCENT=$(bc <<< "scale=2; $DISTINCT / $LINES * 100") ; echo "$(head -1 Electric_Vehicle_Population_Data.csv | cut -d\; -f1) tiene $DISTINCT valores distintos de un total de $LINES registros.Esto representa $PERCENT%"
@@ -129,14 +130,15 @@
     ```bash
     cut -d\; -f9 Electric_Vehicle_Population_Data.csv | sort | uniq -c
     ```
-    Con este resultado ..... (el texto con el uno es la cabecera)
+    Con este resultado ..... (el texto con el uno es la cabecera). 
+    
 
     ```bash
     78828 Battery Electric Vehicle (BEV)
         1 Electric Vehicle Type
     20956 Plug-in Hybrid Electric Vehicle (PHEV)
     ```
- 
+    Para quitar la cabecera usad el comando `tail -n +2 <fichero>'
     Podemos intuir que una **recodificación** nos haría más pequeño el fichero.
     
     Contando los carácteres de la columna ... 3 260 974
