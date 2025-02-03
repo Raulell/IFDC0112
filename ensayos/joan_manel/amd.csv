@@ -1,0 +1,13 @@
+﻿Name,GraphicsModel,#Cores,#Threads,Max.BoostClock,BaseClock,GraphicsCoreCount,AMDRyzenAI,DefaultTDP
+AMD Ryzen™ 7 PRO 8700GE,AMD Radeon™ 780M,8,16,Up to 5.1 GHz,3.6 GHz,12,Available,35W
+AMD Ryzen™ 7 PRO 8700G,AMD Radeon™ 780M,8,16,Up to 5.1 GHz,4.2 GHz,12,Available,65W
+AMD Ryzen™ 5 PRO 8600GE,AMD Radeon™ 760M,6,12,Up to 5 GHz,3.9 GHz,8,Available,35W
+AMD Ryzen™ 5 PRO 8600G,AMD Radeon™ 760M,6,12,Up to 5 GHz,4.3 GHz,8,Available,65W
+AMD Ryzen™ 5 PRO 8500GE,AMD Radeon™ 740M,6,12,Up to 5 GHz,3.4 GHz,4,Not Available,35W
+AMD Ryzen™ 5 PRO 8500G,AMD Radeon™ 740M,6,12,Up to 5 GHz,3.5 GHz,4,Not Available,65W
+AMD Ryzen™ 3 PRO 8300GE,AMD Radeon™ 740M,4,8,Up to 4.9 GHz,3.5 GHz,4,Not Available,35W
+AMD Ryzen™ 3 PRO 8300G,AMD Radeon™ 740M,4,8,Up to 4.9 GHz,3.4 GHz,4,Not Available,65W
+AMD Ryzen™ 7 8700G,AMD Radeon™ 780M,8,16,Up to 5.1 GHz,4.2 GHz,12,Available,65W
+AMD Ryzen™ 5 8600G,AMD Radeon™ 760M,6,12,Up to 5 GHz,4.3 GHz,8,Available,65W
+AMD Ryzen™ 5 8500G,AMD Radeon™ 740M,6,12,Up to 5 GHz,3.5 GHz,4,Not Available,65W
+AMD Ryzen™ 3 8300G,AMD Radeon™ 740M,4,8,Up to 4.9 GHz,3.4 GHz,4,Not Available,65W
