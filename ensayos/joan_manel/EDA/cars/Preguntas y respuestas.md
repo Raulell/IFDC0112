@@ -92,7 +92,53 @@ cut -d';' -f7,8 Electric_Vehicle_Population_Data.csv | grep NISSAN | cut -d';' -
 ```
 
 ## Ordena de mayor a menor autonomía promedio a los fabricantes
+El listado resultante es el siguiente:
+
+196.393 JAGUAR
+100 WHEEGO ELECTRIC CARS
+100 TH!NK
+84.1524 CHEVROLET
+81.0593 FIAT
+73.1264 NISSAN
+62.9151 TESLA
+62.0982 SMART
+56 AZURE DYNAMICS
+52.737 PORSCHE
+47.1958 AUDI
+41.0465 LAND ROVER
+36.165 KIA
+33 ALFA ROMEO
+32.1104 CHRYSLER
+32 DODGE
+31.9857 MITSUBISHI
+31.2275 BMW
+28.3463 TOYOTA
+26.3424 POLESTAR
+25.6369 MAZDA
+24.2544 LINCOLN
+23.396 VOLKSWAGEN
+22.8474 HONDA
+22.2282 JEEP
+21.873 LEXUS
+17.5715 VOLVO
+16.5148 HYUNDAI
+15.0651 MINI
+10.9185 MERCEDES-BENZ
+8.75921 FORD
+2.67568 FISKER
+2.66507 CADILLAC
+0.704545 SUBARU
+0 VINFAST
+0 ROLLS-ROYCE
+0 RIVIAN
+0 MULLEN AUTOMOTIVE INC.
+0 LUCID
+0 GMC
+0 GENESIS
+0 BRIGHTDROP
+0 ACURA
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+awk -F";" '{count[$7]++; suma[$7]=suma[$7] + $11;} END {for (make in count) print suma[make]/count[make], make}' Electric_Vehicle_Population_Data.csv | grep -v
+ Make | sort -nr
 ```

@@ -1,0 +1,17 @@
+1:VIN (1-10)
+2:County
+3:City
+4:State
+5:Postal Code
+6:Model Year
+7:Make
+8:Model
+9:Electric Vehicle Type
+10:Clean Alternative Fuel Vehicle (CAFV) Eligibility
+11:Electric Range
+12:Base MSRP
+13:Legislative District
+14:DOL Vehicle ID
+15:Vehicle Location
+16:Electric Utility
+17:2020 Census Tract

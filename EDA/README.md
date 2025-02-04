@@ -1,5 +1,5 @@
-+ cabecera head 5 <file>
-+ cola tail 7 <file>
++ cabecera head -5 <file>
++ cola tail -7 <file>
 + contar columnas
 
     substituimos los separadores por un retorno de linea. Contamos las lineas.
