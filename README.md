@@ -26,7 +26,8 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 
 # Comandos bash 
 
-+ change directory (cd <dir>)
++ Quine soy `whoami`
++ change directory (`cd <dir>`)
 + make directory (mkdir <dir>)
 + change ownership (chown <owner>:<group> <file>)
 + change permissions (chmod <num> <file>)  El numero de tres cifras otorga los permisos al owner, al grupo y a otros
@@ -48,7 +49,9 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 + editar un archivo :e <nombre>
 + substituir en todo el archivo :% s/original/substitucion/g
 + cambiar una palabra cw (sin los dos puntos. estando encima de la palabra.)
-+ deshacer u
++ deshacer u (si los dos puntos)
++ insertar i (sin los dos puntos)
++ finalizar la insercion, pulsa esc
 
 
 # Comandos git
@@ -60,3 +63,38 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 
 ### Hay varios manuales de buenas prácticas para documentar los commits
 ### Agrupa los modificaciones relacionadas en un mismo commit 
+
+
+ # Bash grupos y usuarios
+
++ crea un nuevo grupo marketing
+  
+sudo groupadd marketing
+
++ crea un nuevo usuario y añadelo al grupo recien creado
+  
+sudo useradd -g marketing username
+
++ define un nuevo password para un usuario
+  
+sudo passwd username
+
++ verifica a que grupos pertenece un usuario
+  
+groups username
+
++ añade el usuario codespace al grupo tirame
+  
+ sudo usermod -aG tirame codespace
+
++ borra el usuario codespace del grupo tirame
+  
+ sudo gpasswd -d codespace tirame
+
++ lista todos los grupos existentes
+  
+cat /etc/group o bien getent group
+
++ lista todos los usuarios existentes
+  
+  cat /etc/passwd
