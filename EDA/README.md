@@ -4,7 +4,7 @@
 
     substituimos los separadores por un retorno de linea. Contamos las lineas.
     ```bash
-    head -1 flags.csv | sed -e s/:/\\n/g | wc -l
+    head -1 flags.csv | sed -e 's/:/\\n/g' | wc -l
     ```
 
 + extraer datos de una columna

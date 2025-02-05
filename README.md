@@ -65,6 +65,7 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 ### Agrupa los modificaciones relacionadas en un mismo commit 
 
 
+
  # Bash grupos y usuarios
 
 + crea un nuevo grupo marketing
@@ -98,3 +99,4 @@ cat /etc/group o bien getent group
 + lista todos los usuarios existentes
   
   cat /etc/passwd
+
