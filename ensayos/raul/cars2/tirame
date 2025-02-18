@@ -1,0 +1,67 @@
+sed -i -e 's/AVISTA CORP/1/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||AVISTA CORP||BIG BEND ELECTRIC COOP/2/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||AVISTA CORP||INLAND POWER & LIGHT COMPANY/3/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||AVISTA CORP||PUD NO 1 OF ASOTIN COUNTY/4/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||BIG BEND ELECTRIC COOP/5/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF CENTRALIA - (WA)|CITY OF TACOMA - (WA)/6/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF COULEE DAM - (WA)/7/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF ELLENSBURG - (WA)/8/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF MCCLEARY - (WA)/9/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF MILTON - (WA)|CITY OF TACOMA - (WA)/10/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF PORT ANGELES - (WA)/11/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF RICHLAND - (WA)/12/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||BENTON RURAL ELECTRIC ASSN|PENINSULA LIGHT COMPANY/13/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||ELMHURST MUTUAL POWER & LIGHT CO|PENINSULA LIGHT COMPANY/14/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||LAKEVIEW LIGHT & POWER|PENINSULA LIGHT COMPANY/15/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||OHOP MUTUAL LIGHT COMPANY/16/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PARKLAND LIGHT & WATER COMPANY|PENINSULA LIGHT COMPANY/17/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PENINSULA LIGHT COMPANY/18/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PUD NO 1 OF LEWIS COUNTY/19/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PUD NO 1 OF MASON COUNTY/20/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PUD NO 3 OF MASON COUNTY/21/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||COLUMBIA RURAL ELEC ASSN/22/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||INLAND POWER & LIGHT COMPANY/23/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||ORCAS POWER & LIGHT COOP/24/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PACIFICORP||BENTON RURAL ELECTRIC ASSN/25/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PACIFICORP||PUD NO 1 OF CLARK COUNTY - (WA)/26/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD 1 OF SNOHOMISH COUNTY/27/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF BENTON COUNTY/28/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF CLALLAM COUNTY/29/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF CLARK COUNTY - (WA)/30/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF COWLITZ COUNTY/31/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF FERRY COUNTY/32/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF FRANKLIN COUNTY/33/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF GRAYS HARBOR COUNTY/34/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF JEFFERSON COUNTY/35/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF KITTITAS COUNTY/36/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF KLICKITAT COUNTY/37/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF MASON COUNTY|PUD NO 1 OF JEFFERSON COUNTY/38/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF SKAMANIA CO/39/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF WAHKIAKUM COUNTY/40/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUD NO 2 OF PACIFIC COUNTY/41/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||PUGET SOUND ENERGY INC||PUD NO 1 OF JEFFERSON COUNTY/42/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||TOWN OF EATONVILLE - (WA)|CITY OF TACOMA - (WA)/43/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||TOWN OF RUSTON - (WA)|CITY OF TACOMA - (WA)||PENINSULA LIGHT COMPANY/44/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||TOWN OF STEILACOOM|CITY OF TACOMA - (WA)||PENINSULA LIGHT COMPANY/45/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/BONNEVILLE POWER ADMINISTRATION||VERA IRRIGATION DISTRICT '15/46/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF BLAINE - (WA)||PUD NO 1 OF WHATCOM COUNTY/47/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF CHENEY - (WA)/48/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF CHEWELAH/49/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF SEATTLE - (WA)/50/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA)/51/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF TACOMA - (WA)/52/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/CITY OF TACOMA - (WA)||TANNER ELECTRIC COOP/53/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/MODERN ELECTRIC WATER COMPANY/54/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/NO KNOWN ELECTRIC UTILITY SERVICE/55/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/NON WASHINGTON STATE ELECTRIC UTILITY/56/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/OKANOGAN COUNTY ELEC COOP/57/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PACIFICORP/58/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PORTLAND GENERAL ELECTRIC CO/59/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUD NO 1 OF CHELAN COUNTY/60/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUD NO 1 OF DOUGLAS COUNTY/61/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUD NO 1 OF OKANOGAN COUNTY/62/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUD NO 1 OF PEND OREILLE COUNTY/63/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUD NO 2 OF GRANT COUNTY/64/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUGET SOUND ENERGY INC/65/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUGET SOUND ENERGY INC||CITY OF TACOMA - (WA)/66/g' Electric_Vehicle_Population_Data.csv 
+sed -i -e 's/PUGET SOUND ENERGY INC||PUD NO 1 OF WHATCOM COUNTY/67/g' Electric_Vehicle_Population_Data.csv 

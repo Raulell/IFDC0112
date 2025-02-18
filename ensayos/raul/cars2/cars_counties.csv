@@ -1,0 +1,40 @@
+cars_count_PK,cars_count_name, cars_count_state_FK
+1,Adams,1
+2,Asotin,1
+3,Benton,1
+4,Chelan,1
+5,Clallam,1
+6,Clark,1
+7,Columbia,1
+8,Cowlitz,1
+9,Douglas,1
+10,Ferry,1
+11,Franklin,1
+12,Garfield,1
+13,Grant,1
+14,Grays Harbor,1
+15,Island,1
+16,Jefferson,1
+17,King,1
+18,Kitsap,1
+19,Kittitas,1
+20,Klickitat,1
+21,Lewis,1
+22,Lincoln,1
+23,Mason,1
+24,Okanogan,1
+25,Pacific,1
+26,Pend Oreille,1
+27,Pierce,1
+28,San Juan,1
+29,Skagit,1
+30,Skamania,1
+31,Snohomish,1
+32,Spokane,1
+33,Stevens,1
+34,Thurston,1
+35,Wahkiakum,1
+36,Walla Walla,1
+37,Whatcom,1
+38,Whitman,1
+39,Yakima,1

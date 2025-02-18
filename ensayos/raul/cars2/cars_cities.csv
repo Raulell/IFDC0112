@@ -1,0 +1,375 @@
+cars_cities_PK,cars_cities_county_FK,cars_cities_name
+1,39,Zillah
+2,34,Yelm
+3,17,Yarrow Point
+4,39,Yakima
+5,6,Yacolt
+6,31,Woodway
+7,8,Woodland
+8,6,Woodland
+9,31,Woodinville
+10,17,Woodinville
+11,24,Winthrop
+12,21,Winlock
+13,27,Wilkeson
+14,20,White Salmon
+15,14,Westport
+16,3,West Richland
+17,4,Wenatchee
+18,32,Waverly
+19,9,Waterville
+20,30,Washougal
+21,6,Washougal
+22,13,Warden
+23,39,Wapato
+24,36,Walla Walla
+25,36,Waitsburg
+26,32,Veradale
+27,27,Vaughn
+28,17,Vashon
+29,6,Vancouver
+30,32,Valleyford
+31,21,Vader
+32,26,Usk
+33,27,University Place
+34,39,Union Gap
+35,23,Union
+36,30,Underwood
+37,24,Twisp
+38,34,Tumwater
+39,31,Tulalip
+40,17,Tukwila
+41,20,Trout Lake
+42,8,Toutle
+43,39,Toppenish
+44,24,Tonasket
+45,21,Toledo
+46,39,Tieton
+47,34,Tenino
+48,38,Tekoa
+49,23,Tahuya
+50,14,Taholah
+51,27,Tacoma
+52,25,Surfside
+53,18,Suquamish
+54,39,Sunnyside
+55,27,Sumner
+56,31,Sultan
+57,30,Stevenson
+58,27,Steilacoom
+59,31,Stanwood
+60,33,Springdale
+61,22,Sprague
+62,32,Spokane Valley
+63,32,Spokane
+64,32,Spangle
+65,27,Spanaway
+66,27,South Hill
+67,25,South Bend
+68,13,Soap Lake
+69,19,Snoqualmie Pass
+70,17,Snoqualmie Pass
+71,17,Snoqualmie
+72,31,Snohomish
+73,17,Skykomish
+74,35,Skamokawa
+75,8,Silverlake
+76,18,Silverdale
+77,17,Shoreline
+78,23,Shelton
+79,28,Shaw Island
+80,16,Sequim
+81,5,Sequim
+82,39,Selah
+83,29,Sedro-Woolley
+84,37,Sedro Woolley
+85,29,Sedro Woolley
+86,17,Seattle
+87,17,Seatac
+88,18,Seabeck
+89,14,Satsop
+90,17,Sammamish
+91,8,Ryderwood
+92,27,Ruston
+93,13,Royal City
+94,27,Roy
+95,19,Roslyn
+96,38,Rosalia
+97,19,Ronald
+98,32,Rockford
+99,9,Rock Island
+100,34,Rochester
+101,21,Rochester
+102,24,Riverside
+103,1,Ritzville
+104,6,Ridgefield
+105,3,Richland
+106,10,Republic
+107,17,Renton
+108,17,Redmond
+109,25,Raymond
+110,17,Ravensdale
+111,34,Rainier
+112,13,Quincy
+113,16,Quilcene
+114,27,Puyallup
+115,38,Pullman
+116,3,Prosser
+117,17,Preston
+118,18,Poulsbo
+119,16,Port Townsend
+120,18,Port Orchard
+121,16,Port Ludlow
+122,16,Port Hadlock
+123,5,Port Angeles
+124,12,Pomeroy
+125,37,Point Roberts
+126,4,Peshastin
+127,24,Pateros
+128,11,Pasco
+129,27,Parkland
+130,39,Parker
+131,38,Palouse
+132,21,Packwood
+133,14,Pacific Beach
+134,17,Pacific
+135,39,Outlook
+136,32,Otis Orchards
+137,13,Othello
+138,11,Othello
+139,1,Othello
+140,27,Orting
+141,24,Oroville
+142,9,Orondo
+143,21,Onalaska
+144,24,Omak
+145,34,Olympia
+146,23,Olympia
+147,28,Olga
+148,18,Olalla
+149,24,Okanogan
+150,22,Odessa
+151,14,Ocean Shores
+152,25,Ocean Park
+153,14,Oakville
+154,15,Oak Harbor
+155,30,North Bonneville
+156,17,North Bend
+157,17,Normandy Park
+158,16,Nordland
+159,33,Nine Mile Falls
+160,32,Nine Mile Falls
+161,26,Newport
+162,32,Newman Lake
+163,17,Newcastle
+164,5,Neah Bay
+165,35,Naselle
+166,25,Naselle
+167,21,Napavine
+168,25,Nahcotta
+169,39,Naches
+170,31,Mukilteo
+171,39,Moxee
+172,31,Mountlake Terrace
+173,29,Mount Vernon
+174,21,Mossyrock
+175,13,Moses Lake
+176,21,Morton
+177,14,Montesano
+178,31,Monroe
+179,21,Mineral
+180,27,Milton
+181,17,Milton
+182,31,Mill Creek
+183,32,Mica
+184,11,Mesa
+185,17,Mercer Island
+186,17,Medina
+187,32,Medical Lake
+188,32,Mead
+189,14,Mccleary
+190,23,McCleary
+191,24,Mazama
+192,13,Mattawa
+193,31,Marysville
+194,20,Maryhill
+195,17,Maple Valley
+196,37,Maple Falls
+197,4,Manson
+198,9,Mansfield
+199,4,Malaga
+200,39,Mabton
+201,31,Lynnwood
+202,37,Lynden
+203,20,Lyle
+204,28,Lopez Island
+205,33,Loon Lake
+206,8,Longview
+207,27,Longbranch
+208,25,Long Beach
+209,23,Lilliwaup
+210,32,Liberty Lake
+211,4,Leavenworth
+212,15,Langley
+213,27,Lakewood
+214,27,Lakebay
+215,27,Lake Tapps
+216,31,Lake Stevens
+217,17,Lake Forest Park
+218,34,Lacey
+219,29,La Conner
+220,6,La Center
+221,19,Kittitas
+222,17,Kirkland
+223,18,Kingston
+224,18,Keyport
+225,33,Kettle Falls
+226,10,Kettle Falls
+227,17,Kent
+228,3,Kennewick
+229,17,Kenmore
+230,8,Kelso
+231,27,Kapowsin
+232,8,Kalama
+233,27,Joint Base Lewis Mcchord
+234,17,Issaquah
+235,18,Indianola
+236,31,Index
+237,25,Ilwaco
+238,20,Husum
+239,17,Hunts Point
+240,33,Hunters
+241,14,Hoquiam
+242,23,Hoodsport
+243,4,Holden Village
+244,18,Hansville
+245,15,Greenbank
+246,32,Greenacres
+247,14,Grayland
+248,23,Grapeview
+249,31,Granite Falls
+250,39,Granger
+251,39,Grandview
+252,3,Grandview
+253,13,Grand Coulee
+254,27,Graham
+255,20,Goldendale
+256,31,Gold Bar
+257,27,Gig Harbor
+258,18,Gig Harbor
+259,28,Friday Harbor
+260,15,Freeland
+261,27,Fox Island
+262,5,Forks
+263,27,Fircrest
+264,27,Fife
+265,37,Ferndale
+266,17,Federal Way
+267,17,Fall City
+268,37,Everson
+269,31,Everett
+270,33,Evans
+271,13,Ephrata
+272,17,Enumclaw
+273,4,Entiat
+274,11,Eltopia
+275,23,Elma
+276,14,Elma
+277,19,Ellensburg
+278,32,Elk
+279,26,Elk
+280,27,Elbe
+281,31,Edmonds
+282,27,Edgewood
+283,27,Eatonville
+284,28,Eastsound
+285,19,Easton
+286,9,East Wenatchee
+287,17,Duvall
+288,27,Dupont
+289,17,Des Moines
+290,37,Deming
+291,33,Deer Park
+292,32,Deer Park
+293,7,Dayton
+294,22,Davenport
+295,31,Darrington
+296,20,Dallesport
+297,37,Custer
+298,26,Cusick
+299,21,Curtis
+300,10,Curlew
+301,39,Cowiche
+302,17,Covington
+303,15,Coupeville
+304,24,Coulee Dam
+305,13,Coulee City
+306,14,Cosmopolis
+307,11,Connell
+308,29,Concrete
+309,33,Colville
+310,38,Colton
+311,36,College Place
+312,32,Colbert
+313,17,Clyde Hill
+314,15,Clinton
+315,19,Cle Elum
+316,33,Clayton
+317,2,Clarkston
+318,5,Clallam Bay
+319,21,Cinebar
+320,16,Chimacum
+321,33,Chewelah
+322,32,Cheney
+323,4,Chelan
+324,21,Chehalis
+325,32,Chattaroy
+326,34,Centralia
+327,21,Centralia
+328,35,Cathlamet
+329,8,Castle Rock
+330,4,Cashmere
+331,30,Carson
+332,17,Carnation
+333,27,Carbonado
+334,6,Camas
+335,15,Camano Island
+336,29,Burlington
+337,17,Burien
+338,36,Burbank
+339,34,Bucoda
+340,27,Buckley
+341,6,Brush Prairie
+342,16,Brinnon
+343,31,Brier
+344,9,Bridgeport Bar
+345,24,Brewster
+346,18,Bremerton
+347,29,Bow
+348,31,Bothell
+349,17,Bothell
+350,27,Bonney Lake
+351,37,Blaine
+352,17,Black Diamond
+353,20,Bingen
+354,3,Benton City
+355,37,Bellingham
+356,29,Bellingham
+357,17,Bellevue
+358,23,Belfair
+359,17,Beaux Arts
+360,6,Battle Ground
+361,17,Baring
+362,18,Bainbridge Island
+363,27,Auburn
+364,17,Auburn
+365,2,Asotin
+366,31,Arlington
+367,8,Ariel
+368,27,Anderson Island
+369,29,Anacortes
+370,6,Amboy
+371,23,Allyn
+372,17,Algona
+373,32,Airway Heights
+374,14,Aberdeen
