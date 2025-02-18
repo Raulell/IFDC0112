@@ -1,5 +1,12 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {"ghcr.io/itsmechlark/features/postgresql:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzane.markdown-pdf"
+      ]
+    }
   }
 }
